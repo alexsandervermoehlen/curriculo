@@ -1,4 +1,59 @@
-.teste
+
+body 
 {
-    color: blue;
+    background-color: gray;
+}
+
+img
+{
+    border-radius: 100%;
+    max-width: 25%;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+section
+{
+    text-align: center;
+}
+
+nav
+{
+    background: rgb(6, 243, 18);
+    display: table;
+    width: 100%;
+}
+
+nav ul {list-style: none;}
+
+nav ul li {display: inline;} 
+
+nav ul li a 
+{
+    font: 13px verdana, arial,tahoma, sans-serif;
+    color: rgb(22, 6, 245);
+    background: rgb(6, 243, 18);
+    text-decoration: none;
+    float: left;
+    padding: 5px 10px;
+    margin-left: 1px;
+}
+
+nav ul li a:hover
+{
+    color: rgb(6, 243, 18);
+    background: rgb(22, 6, 245);
 }
