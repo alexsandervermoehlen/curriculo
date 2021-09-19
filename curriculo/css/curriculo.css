@@ -1,7 +1,8 @@
 
 body 
 {
-    background-color: gray;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,190,0.9724264705882353) 71%, rgba(9,214,255,1) 100%);
 }
 
 img
@@ -12,17 +13,20 @@ img
 
 h1
 {
-    text-align: center;
+    text-align: center; 
+    color: white;
 }
 
 h3
 {
     text-align: center;
+    color: white;
 }
 
 p
 {
     text-align: center;
+    color: white;
 }
 
 section
@@ -32,7 +36,7 @@ section
 
 nav
 {
-    background: rgb(6, 243, 18);
+    background: black;
     display: table;
     width: 100%;
 }
@@ -44,8 +48,8 @@ nav ul li {display: inline;}
 nav ul li a 
 {
     font: 13px verdana, arial,tahoma, sans-serif;
-    color: rgb(22, 6, 245);
-    background: rgb(6, 243, 18);
+    color: white;
+    background: black;
     text-decoration: none;
     float: left;
     padding: 5px 10px;
@@ -54,6 +58,6 @@ nav ul li a
 
 nav ul li a:hover
 {
-    color: rgb(6, 243, 18);
-    background: rgb(22, 6, 245);
+    color: black;
+    background: white;
 }
